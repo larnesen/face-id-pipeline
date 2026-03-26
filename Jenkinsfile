@@ -11,7 +11,7 @@ pipeline {
 		stage('Run Face ID Tests') {
 			steps {
 				echo 'Running Face ID simulation tests...'
-				sh 'pytest face_id_tests.py -v'
+				sh '/Users/larn/Library/Python/3.9/bin/pytest face_id_tests.py -v'
 			}
 		}
 	}
